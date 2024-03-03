@@ -13,6 +13,8 @@ Basicamente só [baixar ](https://github.com/BtbN/FFmpeg-Builds/releases) e colo
 ## Uso
 
  - Certifique-se que o nome do vídeo que você quer alterar esteja com o nome ``video.mp4``
+ - Certifique-se que os arquivos dentro da pasta áudios sejam no formato ``.mp3``
+ - Certifique-se que os arquivos de legenda dentro da pasta legendas sejam no formato ``.srt``
 
 ### Passos para Adicionar Faixas de Áudio:
 
