@@ -19,8 +19,8 @@ Basicamente só [baixar ](https://github.com/BtbN/FFmpeg-Builds/releases) e colo
  - Certifique-se que os arquivos dentro da pasta áudios sejam no formato ``.mp3``
  - Certifique-se que os arquivos de legenda dentro da pasta legendas sejam no formato ``.srt``
 
-## Modificações
-### Caso seja relevante, você pode mudar duas coisas dentro do arquivo ``aplicar_track_audio.py``
+### Modificações
+#### Caso seja relevante, você pode mudar duas coisas dentro do arquivo ``aplicar_track_audio.py``
 1. Na linha 10 você pode mudar o FPS (Padrão 30)
 2. Na linha 13 você pode mudar o kbps do áudio (Padrão 128)
 
