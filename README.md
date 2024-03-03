@@ -2,6 +2,9 @@
 
 Este script Python, `aplicar_track_audio.py`, e o arquivo de lote `legendas.bat` são projetados para facilitar a adição de faixas de áudio e legendas a um vídeo.
 
+## Resultado final
+![image](https://github.com/RafaelGodoyEbert/Adicionar_audio_e_legenda/assets/78083427/5e4a99df-597a-4930-8e34-66f688ffaef8)
+
 ## Requisitos
 
 - Python 3.x
