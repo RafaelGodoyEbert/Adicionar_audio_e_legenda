@@ -58,6 +58,16 @@ Se desejar adicionar legendas em outros idiomas, será necessário atualizar o c
 
 - Agora que foi colocado os áudios e as legendas, voce pode renomear o arquivo `OUTPUT_leg.mp4` e apagar o arquivo `output-track.mp4`.
 
+## Extra
+Adicionei um arquivo chamado `mesclar.bat`. 
+Basicamente pega um áudio chamado `background`, que é onde você vai por todos o SFX, MX e outros sons de fundo, e então ele faz a mescla do áudio `backgroud.mp3` com todos os arquivos que está dentro da pasta `áudios`, assim usando um mesmo SFX para todos os áudios.
+Ou seja
+- Crie uma pasta áudios e coloque todos os faixas de áudio
+- Crie seu arquivo `background.mp3` onde vai estar todo o som de fundo do seu vídeo
+- Coloque as faixas de áudio de vários idiomas na pasta áudios
+- Execute o `mesclar.bat` e ele vai unir cada faixa de áudio com o mesmo background
+- Após isso faça a opção de mesclar tudo num vídeo só, caso for do seu interesse
+
 ## Nota
 
 Certifique-se de que todos os arquivos necessários (vídeo, áudio e legendas) estejam presentes nos diretórios especificados antes de executar os scripts. Certifique-se também de que os nomes dos arquivos e os idiomas correspondam corretamente para uma saída adequada.
