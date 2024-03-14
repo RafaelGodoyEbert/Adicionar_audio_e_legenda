@@ -68,6 +68,9 @@ Ou seja
 - Execute o `mesclar.bat` e ele vai unir cada faixa de áudio com o mesmo background
 - Após isso faça a opção de mesclar tudo num vídeo só, caso for do seu interesse
 
+OBS: Como no trabalho que faço mantemos um backup, optamos por deixar em `.mp3` para que fique menor.
+Então caso na sua pasta audios tenha algum `.wav`, após mesclar ele __**converte**__ para `.mp3`
+
 ## Nota
 
 Certifique-se de que todos os arquivos necessários (vídeo, áudio e legendas) estejam presentes nos diretórios especificados antes de executar os scripts. Certifique-se também de que os nomes dos arquivos e os idiomas correspondam corretamente para uma saída adequada.
