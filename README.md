@@ -17,13 +17,19 @@ Atualizei o programa para facilitar muito mais ainda, agora com novas funcionali
 Recomendo baixar o .zip que está pronto em releases, mas caso queira fazer.
 
 ### Crie uma venv
-```python -m venv venv```
+```
+python -m venv venv
+```
 depois
-```venv\Scripts\activate```
+```
+venv\Scripts\activate
+```
 
 ### Instale as dependencias
 Com a venv ativada
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ## Uso
 Obviamente você não tem uma ordem pra seguir, se quiser usar apenas um pode, um script não depende do outro, só respeite os diretórios especificados.
