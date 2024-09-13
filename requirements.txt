@@ -1,0 +1,4 @@
+deep_translator
+python-ffmpeg
+pysrt
+tqdm
