@@ -46,33 +46,33 @@ pip install -r requirements.txt
 ```
 
 ## Uso
-Obviamente você não tem uma ordem pra seguir, se quiser usar apenas um pode, um script não depende do outro, só respeite os diretórios especificados.
 
-Arquivo `traduzir.bat`
-- Você só precisa por que quer traduzir na pasta legendas\legendas_originais
-- E executar o `traduzir.bat`
+Você pode utilizar cada script de forma independente, sem precisar seguir uma ordem específica. Basta respeitar os diretórios especificados para que tudo funcione corretamente.
 
-Arquivo `mesclar_com_áudios.bat`
-- Você precisa deixar todos os áudios que você quer mesclar dentro da pasta `audio_idiomas`
-- Deixar o arquivo `background.mp3` solto na pasta junto com os arquivos .bat
-- E executar o `mesclar_com_áudios.bat`
+### Arquivo `traduzir.bat`
+1. Coloque os arquivos `.SRT` que deseja traduzir na pasta `legendas\legendas_originais`.
+2. Execute o `traduzir.bat`.
 
-Arquivo `separar_legenda.bat`
-- Apenas executar o `separar_legenda.bat` e ele faz o backup e faz a separação dinamica pra você.
-- Lembrando que não tem suporte a idiomas asiáticos como Japonês, Chinês e Coreano.
+### Arquivo `mesclar_com_áudios.bat`
+1. Coloque todos os áudios que deseja mesclar na pasta `audio_idiomas`.
+2. Deixe o arquivo `background.mp3` na mesma pasta dos arquivos `.bat`.
+3. Execute o `mesclar_com_áudios.bat`.
 
-Arquivos `adicionar_faixa_de_legenda.bat`
-- Ao executar o código ele pergunta qual o nome do arquivo de vídeo que está na pasta junto aos `.bat`.
-- Ao executar o código ele pergunta qual pasta com arquivos de legenda tu quer que ele coloque, sendo `legendas\legendas_originais` ou `legendas\legendas_traduzidas`.
-- Só escolher qual dessas duas pasta estão seus arquivos e executar o `adicionar_faixa_de_legenda.bat`
-- Então ele criará um novo vídeo com as legendas com o próprio nome das legendas nas pastas.
+### Arquivo `separar_legenda.bat`
+1. Execute o `separar_legenda.bat` para que ele faça o backup e a separação das legendas automaticamente.
+   - Lembre-se que este script não oferece suporte a idiomas asiáticos como Japonês, Chinês e Coreano.
 
-Arquivos `adicionar_faixas_de_áudio.bat`
-- Ao executar o código ele pergunta qual o nome do arquivo de vídeo que está na pasta junto aos `.bat`.
-    - Nesse caso, se você botou as legendas, pode escolher o nome do vídeo já com legendas.
-- Ao executar o código pega todos seus arquivos de áudio da pasta `audio_idiomas` e coloca no vídeo com o nome do próprio áudio.
-- Só executar o `adicionar_faixa_de_legenda.bat`
-- Então ele criará um novo vídeo com os áudios.
+### Arquivo `adicionar_faixa_de_legenda.bat`
+1. Ao executar, o script perguntará o nome do arquivo de vídeo que está na mesma pasta dos `.bat`.
+2. Escolha a pasta de legendas que deseja adicionar: `legendas\legendas_originais` ou `legendas\legendas_traduzidas`.
+3. O script criará um novo vídeo com as legendas, usando os nomes dos arquivos de legenda como referência.
+
+### Arquivo `adicionar_faixas_de_áudio.bat`
+1. Ao executar, o script perguntará o nome do arquivo de vídeo na mesma pasta dos `.bat`.
+   - Caso tenha adicionado legendas, você pode escolher o nome do vídeo já com as legendas.
+2. O script pegará todos os arquivos de áudio da pasta `audio_idiomas` e os adicionará ao vídeo.
+3. Execute o `adicionar_faixa_de_legenda.bat` para gerar o novo vídeo com os áudios.
+
 
 ## Nota
 
